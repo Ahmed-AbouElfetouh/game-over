@@ -1,0 +1,46 @@
+form {
+  background-color: var(--main-color);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 6px;
+  position: relative;
+  top: 150px;
+}
+form h2 {
+  margin-bottom: 20px;
+  color: #aaa;
+}
+form .box {
+  display: flex;
+}
+form .box div {
+  width: 50%;
+}
+form .box div:first-of-type input {
+  margin-right: 20px;
+  width: calc(100% - 20px);
+}
+form 
+form input[type="submit"] {
+  width: 100%;
+  background-color: #3A3F44;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 10px;
+}
+form .form-footer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+form .form-footer p {
+  margin-right: 10px;
+  margin-bottom: 0;
+  color: #aaa;
+}
+input {
+  margin-bottom: 10px;
+}

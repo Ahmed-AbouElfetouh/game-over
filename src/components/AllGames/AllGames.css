@@ -1,0 +1,30 @@
+.all-games {
+  position: relative;
+  top: 100px;
+}
+.all-games .body-content .box h3 {
+  color: #aaa;
+  font-size: 18px;
+  font-weight: bold;
+}
+.all-games .body-content .box span {
+  color: #fff;
+  background-color: var(--secondary-color);
+  padding: 3px 5px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.all-games .body-content p {
+  color: #aaa;
+  padding-left: 16px;
+}
+.all-games .body-content .content-footer > div span  {
+  margin-right: 5px;
+  font-size: 12px;
+  color: #333;
+  background-color: #aaa;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 3px;
+}

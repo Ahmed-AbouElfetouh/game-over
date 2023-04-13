@@ -1,0 +1,50 @@
+nav {
+  background-color: var(--main-color) !important;
+  box-shadow: 0 0 24px rgba(0,0,0, 0.15);
+  position: fixed !important;
+  width: 100%;
+  z-index: 100;
+}
+.special {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.login_btn {
+  color: #aaa !important;
+  margin-top: -10px;
+}
+.handel_btns {
+  color: var(--secondary-color) !important;
+  border: 1px solid var(--secondary-color);
+  padding: 5px 15px !important;
+  border-radius: 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .handel_lg_screen {
+    align-items: flex-start !important;
+  }
+}
+.handel_LI {
+  position: relative;
+}
+.handel_UL {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: #fff;
+  width: 120px;
+  border-radius: 4px;
+  padding: 15px;
+  display: none;
+}
+.handel_UL li {
+  color: #000;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.show {
+  display: block !important;
+}

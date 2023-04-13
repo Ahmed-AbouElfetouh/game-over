@@ -1,0 +1,8 @@
+.game-details {
+  position: relative;
+  top: 100px;
+}
+.game-details .content h2,
+.game-details .content p {
+  color: #aaa;
+}
